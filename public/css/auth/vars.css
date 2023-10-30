@@ -1,0 +1,53 @@
+/* Figma Styles of your File */
+:root {
+    /* Colors */
+    --primary-color-hijau-muda: #049904;
+    --primary-color-hijau-pudar-1: #3ebc3e;
+    --primary-color-hijau-pudar-2: #ceff9d;
+    --aksesn-color-orange: #ffb000;
+    --aksesn-color-orange-kuning: #fdca0e;
+    --aksesn-color-kuning: #ffff00;
+    --aksesn-color-putih: #ffffff;
+    --aksesn-color-abuabu: #f9f5f5;
+    --aksesn-color-hitam: #000000;
+
+    /* Fonts */
+    --h-1-reguler: 400 50px "Poppins", sans-serif;
+    --h-1-medium: 500 50px "Poppins", sans-serif;
+    --h-1-semi-bold: 600 50px "Poppins", sans-serif;
+    --h-1-bold: 700 50px "Poppins", sans-serif;
+    --h-2-reguler: 400 45px "Poppins", sans-serif;
+    --h-2-medium: 500 45px "Poppins", sans-serif;
+    --h-2-semi-bold: 600 45px "Poppins", sans-serif;
+    --h-2-bold: 700 45px "Poppins", sans-serif;
+    --h-3-reguler: 400 35px "Poppins", sans-serif;
+    --h-3-medium: 500 35px "Poppins", sans-serif;
+    --h-3-semi-bold: 600 35px "Poppins", sans-serif;
+    --h-3-bold: 400 35px "Poppins", sans-serif;
+    --h-4-reguler: 400 30px "Poppins", sans-serif;
+    --h-4-medium: 500 30px "Poppins", sans-serif;
+    --h-4-semi-bold: 600 30px "Poppins", sans-serif;
+    --h-4-bold: 700 30px "Poppins", sans-serif;
+    --judul-reguler: 400 25px "Poppins", sans-serif;
+    --judul-medium: 500 25px "Poppins", sans-serif;
+    --judul-semi-bold: 600 25px "Poppins", sans-serif;
+    --judul-bold: 700 25px "Poppins", sans-serif;
+    --micro-judul-reguler: 400 10px "Poppins", sans-serif;
+    --micro-judul-medium: 500 10px "Poppins", sans-serif;
+    --micro-judul-semi-bold: 600 10px "Poppins", sans-serif;
+    --micro-judul-bold: 700 10px "Poppins", sans-serif;
+    --isi-reguler: 400 20px "Poppins", sans-serif;
+    --isi-medium: 500 20px "Poppins", sans-serif;
+    --isi-semi-bold: 600 20px "Poppins", sans-serif;
+    --isi-bold: 700 20px "Poppins", sans-serif;
+    --micro-isi-reguler: 400 5px "Poppins", sans-serif;
+    --micro-isi-medium: 500 5px "Poppins", sans-serif;
+    --micro-isi-semi-bold: 600 5px "Poppins", sans-serif;
+    --micro-isi-bold: 700 5px "Poppins", sans-serif;
+    --artikel-reguler: 400 15px "Inter", sans-serif;
+    --artikel-medium: 500 15px "Poppins", sans-serif;
+    --artikel-semi-bold: 600 15px "Poppins", sans-serif;
+    --artikel-bold: 700 15px "Poppins", sans-serif;
+
+    /* Effects */
+}
