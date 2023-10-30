@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Spatie\FlareClient\View;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/login', function () {
+    return View('pages.auth.login', [
+        'title' => 'Login'
+    ]);
+})->name('login.User');
+
+Route::get('/register', function () {
+    return View('pages.auth.register', [
+        'title' => 'Register'
+    ]);
+})->name('Register.User');

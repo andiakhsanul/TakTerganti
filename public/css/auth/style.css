@@ -1,0 +1,299 @@
+a,
+button,
+input,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    appearance: none;
+    background: none;
+}
+
+.login-page,
+.login-page * {
+    box-sizing: border-box;
+}
+.login-page {
+    background: #ffffff;
+    width: 1512px;
+    height: 1024px;
+    position: relative;
+    overflow: hidden;
+}
+.box-auth {
+    position: absolute;
+    inset: 0;
+}
+.box-r {
+    background: #049904;
+    width: 474px;
+    height: 593px;
+    position: absolute;
+    left: 756px;
+    top: 216px;
+}
+.foodies-1 {
+    width: 455px;
+    height: 419px;
+    position: absolute;
+    left: 807px;
+    top: 300px;
+}
+.box {
+    background: #ceff9d;
+    border-radius: 2px;
+    width: 474px;
+    height: 593px;
+    position: absolute;
+    left: 282px;
+    top: 216px;
+}
+.button-register {
+    width: 326px;
+    height: 32px;
+    position: static;
+}
+.don-t-have-account-yet {
+    color: #000000;
+    text-align: center;
+    font: 700 14px/24px "Arial", sans-serif;
+    position: absolute;
+    left: 347px;
+    top: 731px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    width: 112px;
+    height: 32px;
+    position: static;
+}
+.button-register2 {
+    background: #049904;
+    border-radius: 5px;
+    width: 112px;
+    height: 32px;
+    position: absolute;
+    left: 561px;
+    top: 727px;
+}
+.sign-up {
+    color: #ffff00;
+    text-align: center;
+    font: 700 14px/24px "Arial", sans-serif;
+    position: absolute;
+    left: 592px;
+    top: 731px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-submit {
+    width: 112px;
+    height: 32px;
+    position: static;
+}
+.button-login {
+    background: #049904;
+    border-radius: 5px;
+    width: 112px;
+    height: 32px;
+    position: absolute;
+    left: 455px;
+    top: 639px;
+}
+.login {
+    color: #ffff00;
+    text-align: center;
+    font: 700 14px/24px "Arial", sans-serif;
+    position: absolute;
+    left: 492px;
+    top: 643px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-login {
+    width: 347.04px;
+    height: 220.19px;
+    position: static;
+}
+.form-login {
+    width: 283px;
+    height: 109px;
+    position: static;
+}
+.from-auth {
+    width: 283px;
+    height: 109px;
+    position: static;
+}
+.password {
+    background: #ffffff;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #049904;
+    border-width: 1px;
+    width: 283px;
+    height: 37px;
+    position: absolute;
+    left: 368.35px;
+    top: 483.19px;
+}
+.email-user {
+    background: #ffffff;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #049904;
+    border-width: 1px;
+    width: 283px;
+    height: 37px;
+    position: absolute;
+    left: 368.35px;
+    top: 555.19px;
+}
+.frame {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: 622px;
+    top: 566px;
+    overflow: hidden;
+}
+.group {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.frame2 {
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    left: 379px;
+    top: 492px;
+    overflow: hidden;
+}
+.group2 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.frame3 {
+    width: 21px;
+    height: 20px;
+    position: absolute;
+    left: 381px;
+    top: 564px;
+    overflow: hidden;
+}
+.group3 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.masukkan-email {
+    color: #000000;
+    text-align: center;
+    font: 400 16px/24px "Arial", sans-serif;
+    position: absolute;
+    left: 411px;
+    top: 490px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.masukkan-password {
+    color: #000000;
+    text-align: center;
+    font: 400 16px/24px "Arial", sans-serif;
+    position: absolute;
+    left: 411px;
+    top: 562px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.auth-user {
+    width: 347.04px;
+    height: 53.99px;
+    position: static;
+}
+.pemisah {
+    border-style: solid;
+    border-color: #049904;
+    border-width: 1px 0 0 0;
+    width: 347.04px;
+    height: 0px;
+    position: absolute;
+    left: 336px;
+    top: 425.99px;
+}
+.opsi-auth {
+    width: 301.89px;
+    height: 37.24px;
+    position: static;
+}
+.register {
+    width: 136.37px;
+    height: 37.24px;
+    position: static;
+}
+.register2 {
+    background: #049904;
+    border-radius: 5px;
+    width: 136.37px;
+    height: 37.24px;
+    position: absolute;
+    left: 524.8px;
+    top: 372px;
+}
+.register3 {
+    color: #ffff00;
+    text-align: center;
+    font: 700 20px/24px "Arial", sans-serif;
+    position: absolute;
+    left: 554px;
+    top: 379px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login2 {
+    width: 136.37px;
+    height: 37.24px;
+    position: static;
+}
+.login3 {
+    background: #ffffff;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #049904;
+    border-width: 1px;
+    width: 136.37px;
+    height: 37.24px;
+    position: absolute;
+    left: 359.27px;
+    top: 372px;
+}
+.login4 {
+    color: #000000;
+    text-align: center;
+    font: 700 20px/24px "Arial", sans-serif;
+    position: absolute;
+    left: 400px;
+    top: 379px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
