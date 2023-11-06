@@ -29,3 +29,7 @@ Route::get('/register', function () {
         'title' => 'Register'
     ]);
 })->name('Register.User');
+
+Route::get('/navbar',function(){
+    return view('partials.users.header');
+});
