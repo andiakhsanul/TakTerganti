@@ -33,3 +33,9 @@ Route::get('/register', function () {
 Route::get('/navbar',function(){
     return view('partials.users.header');
 });
+
+Route::get('/HomeMember', function () {
+    return View('pages.users.member.home', [
+        'title' => 'Home Member'
+    ]);
+})->name('MemberHome.User');
