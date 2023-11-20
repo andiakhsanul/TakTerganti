@@ -1,0 +1,247 @@
+.login-page-eSw {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    height: 102.4rem;
+    overflow: hidden;
+    padding: 21.6rem 25rem 21.5rem 28.2rem;
+    position: relative;
+    width: 100%;
+
+    .box-auth-qnK {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        width: 100%;
+
+        .auto-group-5qoz-xM9 {
+            background-color: #ceff9d;
+            border-radius: 0.2rem;
+            box-sizing: border-box;
+            flex-shrink: 0;
+            height: 100%;
+            padding: 15.6rem 7.296rem 5rem 5.4rem;
+            width: 47.4rem;
+
+            .box-login-rSX {
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                width: 100%;
+
+                .auth-user-nLB {
+                    border-bottom: solid 0.1rem #049904;
+                    border-radius: 0.5rem;
+                    box-sizing: border-box;
+                    flex-shrink: 0;
+                    height: 5.4994rem;
+                    padding: 0rem 2.187rem 0rem 2.327rem;
+                    width: 100%;
+
+                    .opsi-auth-JpK {
+                        align-items: center;
+                        border-radius: 0.5rem;
+                        display: flex;
+                        height: 3.7237rem;
+                        width: 100%;
+
+                        .login-Sfd {
+                            align-items: center;
+                            background-color: #ffffff;
+                            border: solid 0.1rem #049904;
+                            border-radius: 0.5rem;
+                            box-sizing: border-box;
+                            color: #000000;
+                            display: flex;
+                            flex-shrink: 0;
+                            font-family: Arial, "Source Sans Pro";
+                            font-size: 2rem;
+                            font-weight: 700;
+                            height: 100%;
+                            justify-content: center;
+                            letter-spacing: -0.02rem;
+                            line-height: 1.2;
+                            margin-right: 2.9155rem;
+                            white-space: nowrap;
+                            width: 13.6369rem;
+                        }
+                        .register-PDV {
+                            align-items: center;
+                            background-color: #049904;
+                            border-radius: 0.5rem;
+                            color: #ffff00;
+                            display: flex;
+                            flex-shrink: 0;
+                            font-family: Arial, "Source Sans Pro";
+                            font-size: 2rem;
+                            font-weight: 700;
+                            height: 100%;
+                            justify-content: center;
+                            letter-spacing: -0.02rem;
+                            line-height: 1.2;
+                            white-space: nowrap;
+                            width: 13.6369rem;
+                        }
+                    }
+                }
+                .auto-group-jkqj-oY7 {
+                    align-items: center;
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-direction: column;
+                    flex-shrink: 0;
+                    padding: 5.619rem 1.004rem 0rem 1.1rem;
+                    width: 100%;
+
+                    .form-login-WBd {
+                        flex-shrink: 0;
+                        height: 10.9rem;
+                        margin: 0rem 2.165rem 4.681rem 2.135rem;
+                        position: relative;
+                        width: calc(100% - 4.3rem);
+
+                        .from-auth-NzX {
+                            height: 10.9rem;
+                            left: 0;
+                            object-fit: contain;
+                            position: absolute;
+                            top: 0;
+                            vertical-align: top;
+                            width: 28.3rem;
+                        }
+                        .frame-JNP {
+                            height: 2rem;
+                            left: 1.2655rem;
+                            object-fit: contain;
+                            position: absolute;
+                            top: 8.0813rem;
+                            vertical-align: top;
+                            width: 2.1rem;
+                        }
+                        .masukkan-email-zm1 {
+                            align-items: center;
+                            color: #000000;
+                            display: flex;
+                            font-family: Arial, "Source Sans Pro";
+                            font-size: 1.6rem;
+                            font-weight: 400;
+                            height: 2.4rem;
+                            justify-content: center;
+                            left: 4.7155rem;
+                            letter-spacing: -0.016rem;
+                            line-height: 1.5;
+                            position: absolute;
+                            top: 0.6813rem;
+                            white-space: nowrap;
+                            width: 10.7rem;
+                        }
+                        .masukkan-password-3DV {
+                            align-items: center;
+                            color: #000000;
+                            display: flex;
+                            font-family: Arial, "Source Sans Pro";
+                            font-size: 1.6rem;
+                            font-weight: 400;
+                            height: 2.4rem;
+                            justify-content: center;
+                            left: 4.9155rem;
+                            letter-spacing: -0.016rem;
+                            line-height: 1.5;
+                            position: absolute;
+                            top: 7.8813rem;
+                            white-space: nowrap;
+                            width: 13.3rem;
+                        }
+                    }
+                    .button-submit-j6K {
+                        align-items: center;
+                        background-color: #049904;
+                        border-radius: 0.5rem;
+                        color: #ffff00;
+                        cursor: pointer;
+                        display: flex;
+                        flex-shrink: 0;
+                        font-family: Arial, "Source Sans Pro";
+                        font-size: 1.4rem;
+                        font-weight: 700;
+                        height: 3.2rem;
+                        justify-content: center;
+                        letter-spacing: -0.014rem;
+                        line-height: 1.7142857143;
+                        margin: 0rem 10.6rem 5.6rem 10.8rem;
+                        white-space: nowrap;
+                        width: calc(100% - 21.4rem);
+                    }
+                    .button-register-xzf {
+                        align-items: center;
+                        border-radius: 0.5rem;
+                        box-sizing: border-box;
+                        cursor: pointer;
+                        display: flex;
+                        flex-shrink: 0;
+                        height: 3.2rem;
+                        padding-left: 0.8rem;
+                        width: 100%;
+
+                        .dont-have-account-yet--Vjh {
+                            align-items: center;
+                            color: #000000;
+                            display: flex;
+                            flex-shrink: 0;
+                            font-family: Arial, "Source Sans Pro";
+                            font-size: 1.4rem;
+                            font-weight: 700;
+                            justify-content: center;
+                            letter-spacing: -0.014rem;
+                            line-height: 1.7142857143;
+                            margin-right: 5.9rem;
+                            white-space: nowrap;
+                        }
+                        .button-ZDm {
+                            align-items: center;
+                            background-color: #049904;
+                            border-radius: 0.5rem;
+                            color: #ffff00;
+                            cursor: pointer;
+                            display: flex;
+                            flex-shrink: 0;
+                            font-family: Arial, "Source Sans Pro";
+                            font-size: 1.4rem;
+                            font-weight: 700;
+                            height: 100%;
+                            justify-content: center;
+                            letter-spacing: -0.014rem;
+                            line-height: 1.7142857143;
+                            white-space: nowrap;
+                            width: 11.2rem;
+                        }
+                    }
+                }
+            }
+        }
+        .auto-group-wogx-AjM {
+            flex-shrink: 0;
+            height: 100%;
+            position: relative;
+            width: 50.6rem;
+
+            .box-r-vCj {
+                background-color: #049904;
+                height: 59.3rem;
+                left: 0;
+                position: absolute;
+                top: 0;
+                width: 47.4rem;
+            }
+            .foodies-1-G1h {
+                height: 41.9rem;
+                left: 5.1rem;
+                object-fit: cover;
+                position: absolute;
+                top: 8.4rem;
+                vertical-align: top;
+                width: 45.5rem;
+            }
+        }
+    }
+}
