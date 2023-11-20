@@ -1,68 +1,36 @@
 @extends('layouts.appAuth')
 
 @section('Auth')
-    <div class="login-page">
-        <div class="box-auth">
-            <div class="box-r"></div>
-            <img class="foodies-1" src="foodies-1.png" />
-            <div class="box"></div>
-            <div class="button-register">
-                <div class="don-t-have-account-yet">Don’t have account yet ?</div>
-                <div class="button">
-                    <div class="button-register2"></div>
-                    <div class="sign-up"><a href="{{ route('Register.User') }}">Sign up</a></div>
+    <div class="login-page-eSw" id="51:3386">
+        <div class="box-auth-qnK" id="51:3387">
+            <div class="auto-group-5qoz-xM9" id="68STRxQCrsTvz5aDDE5qoZ">
+                <div class="box-login-rSX" id="113:1460">
+                    <div class="auth-user-nLB" id="51:3395">
+                        <div class="opsi-auth-JpK" id="51:3400">
+                            <div class="login-Sfd" id="700:3553">Login</div>
+                            <div class="register-PDV" id="700:3554">Register</div>
+                        </div>
+                    </div>
+                    <div class="auto-group-jkqj-oY7" id="68STahedf44cHRpy9MjkQj">
+                        <div class="form-login-WBd" id="51:3513">
+                            <img class="from-auth-NzX" src="/api/try-prod-ap-southeast-1-first-cluster/project..."
+                                id="51:3396" />
+                            <img class="frame-JNP" src="/api/try-prod-ap-southeast-1-first-cluster/project..."
+                                id="51:3509" />
+                            <div class="masukkan-email-zm1" id="51:3410">Masukkan Email</div>
+                            <div class="masukkan-password-3DV" id="51:3411">Masukkan Password</div>
+                        </div>
+                        <div class="button-submit-j6K" id="376:3237">Login</div>
+                        <div class="button-register-xzf" id="376:3232">
+                            <div class="dont-have-account-yet--Vjh" id="376:3240">Don’t have account yet ?</div>
+                            <div class="button-ZDm" id="700:3555">Sign up</div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="button-submit">
-                <div class="button-login"></div>
-                <div class="login">Login</div>
-            </div>
-            <div class="box-login">
-                <div class="form-login">
-                    <div class="from-auth">
-                        <div class="password"></div>
-                        <div class="email-user"></div>
-                        <div class="frame">
-                            <svg class="group" width="17" height="17" viewBox="0 0 17 17" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M8.49988 2.125C12.3192 2.125 15.4968 4.87333 16.1633 8.5C15.4975 12.1267 12.3192 14.875 8.49988 14.875C4.68055 14.875 1.50297 12.1267 0.836426 8.5C1.50226 4.87333 4.68055 2.125 8.49988 2.125ZM8.49988 13.4583C9.94451 13.458 11.3462 12.9673 12.4757 12.0666C13.6051 11.1658 14.3953 9.90836 14.7169 8.5C14.3941 7.09276 13.6034 5.83667 12.4741 4.9371C11.3448 4.03753 9.94368 3.54771 8.49988 3.54771C7.05609 3.54771 5.655 4.03753 4.52569 4.9371C3.39639 5.83667 2.60568 7.09276 2.28284 8.5C2.60449 9.90836 3.3947 11.1658 4.52411 12.0666C5.65353 12.9673 7.05526 13.458 8.49988 13.4583ZM8.49988 11.6875C7.65451 11.6875 6.84375 11.3517 6.24598 10.7539C5.64821 10.1561 5.31238 9.34538 5.31238 8.5C5.31238 7.65462 5.64821 6.84387 6.24598 6.2461C6.84375 5.64833 7.65451 5.3125 8.49988 5.3125C9.34526 5.3125 10.156 5.64833 10.7538 6.2461C11.3516 6.84387 11.6874 7.65462 11.6874 8.5C11.6874 9.34538 11.3516 10.1561 10.7538 10.7539C10.156 11.3517 9.34526 11.6875 8.49988 11.6875ZM8.49988 10.2708C8.96954 10.2708 9.41996 10.0843 9.75205 9.75217C10.0841 9.42007 10.2707 8.96965 10.2707 8.5C10.2707 8.03035 10.0841 7.57993 9.75205 7.24783C9.41996 6.91574 8.96954 6.72917 8.49988 6.72917C8.03023 6.72917 7.57981 6.91574 7.24772 7.24783C6.91562 7.57993 6.72905 8.03035 6.72905 8.5C6.72905 8.96965 6.91562 9.42007 7.24772 9.75217C7.57981 10.0843 8.03023 10.2708 8.49988 10.2708Z"
-                                    fill="black" />
-                            </svg>
-                        </div>
-                        <div class="frame2">
-                            <svg class="group2" width="25" height="20" viewBox="0 0 25 20" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M3.12492 2.5H21.8749C22.1512 2.5 22.4161 2.5878 22.6115 2.74408C22.8068 2.90036 22.9166 3.11232 22.9166 3.33333V16.6667C22.9166 16.8877 22.8068 17.0996 22.6115 17.2559C22.4161 17.4122 22.1512 17.5 21.8749 17.5H3.12492C2.84865 17.5 2.5837 17.4122 2.38835 17.2559C2.193 17.0996 2.08325 16.8877 2.08325 16.6667V3.33333C2.08325 3.11232 2.193 2.90036 2.38835 2.74408C2.5837 2.5878 2.84865 2.5 3.12492 2.5ZM12.5624 9.73583L5.88325 5.19833L4.53429 6.46833L12.576 11.9308L20.4728 6.46417L19.1103 5.20333L12.5624 9.73583Z"
-                                    fill="#049904" />
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="frame3">
-                        <svg class="group3" width="21" height="20" viewBox="0 0 21 20" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M15.75 6.66658H17.5C17.7321 6.66658 17.9546 6.75438 18.1187 6.91066C18.2828 7.06694 18.375 7.2789 18.375 7.49992V17.4999C18.375 17.7209 18.2828 17.9329 18.1187 18.0892C17.9546 18.2455 17.7321 18.3333 17.5 18.3333H3.5C3.26794 18.3333 3.04538 18.2455 2.88128 18.0892C2.71719 17.9329 2.625 17.7209 2.625 17.4999V7.49992C2.625 7.2789 2.71719 7.06694 2.88128 6.91066C3.04538 6.75438 3.26794 6.66658 3.5 6.66658H5.25V5.83325C5.25 4.50717 5.80312 3.2354 6.78769 2.29772C7.77226 1.36004 9.10761 0.833252 10.5 0.833252C11.8924 0.833252 13.2277 1.36004 14.2123 2.29772C15.1969 3.2354 15.75 4.50717 15.75 5.83325V6.66658ZM9.625 13.1099V14.9999H11.375V13.1099C11.7086 12.9265 11.9694 12.6433 12.1168 12.3043C12.2642 11.9654 12.2901 11.5896 12.1904 11.2352C12.0907 10.8808 11.871 10.5676 11.5653 10.3443C11.2597 10.1209 10.8852 9.99988 10.5 9.99988C10.1148 9.99988 9.74029 10.1209 9.43467 10.3443C9.12904 10.5676 8.90934 10.8808 8.80963 11.2352C8.70992 11.5896 8.73579 11.9654 8.88321 12.3043C9.03063 12.6433 9.29138 12.9265 9.625 13.1099ZM14 6.66658V5.83325C14 4.9492 13.6313 4.10135 12.9749 3.47623C12.3185 2.85111 11.4283 2.49992 10.5 2.49992C9.57174 2.49992 8.6815 2.85111 8.02513 3.47623C7.36875 4.10135 7 4.9492 7 5.83325V6.66658H14Z"
-                                fill="#049904" />
-                        </svg>
-                    </div>
-                    <div class="masukkan-email">Masukkan Email</div>
-                    <div class="masukkan-password">Masukkan Password</div>
-                </div>
-                <div class="auth-user">
-                    <div class="pemisah"></div>
-                    <div class="opsi-auth">
-                        <div class="register">
-                            <div class="register2"></div>
-                            <div class="register3">Register</div>
-                        </div>
-                        <div class="login2">
-                            <div class="login3"></div>
-                            <div class="login4">Login</div>
-                        </div>
-                    </div>
-                </div>
+            <div class="auto-group-wogx-AjM" id="68SU9ghg2mgwEvAAipwoGX">
+                <div class="box-r-vCj" id="51:3403"></div>
+                <img class="foodies-1-G1h" src="/api/try-prod-ap-southeast-1-first-cluster/project..." id="51:3883" />
             </div>
         </div>
     </div>
