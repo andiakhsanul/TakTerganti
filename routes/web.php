@@ -34,8 +34,8 @@ Route::get('/navbar',function(){
     return view('partials.users.header');
 });
 
-Route::get('/HomeMember', function () {
+Route::get('/tes', function () {
     return View('pages.users.member.home', [
-        'title' => 'Home Member'
+        'title' => 'tes server'
     ]);
-})->name('MemberHome.User');
+})->name('tes');

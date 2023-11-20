@@ -17,7 +17,7 @@
 
 <body>
     {{-- navbar --}}
-    <nav class="navbar navbar-expand-lg  fixed-top" style="background-color: #049904">
+    <nav class="navbar navbar-expand-lg  fixed-top" style="background-color: #049904; ">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="{{ asset('img/Foodies.png') }}" alt="logo_foodys" style="width:140px; height:50px">

@@ -1,453 +1,1960 @@
-.footer-StK {
-    align-items: center;
-    border: dashed 0.1rem #9747ff;
-    border-radius: 0.5rem;
-    box-sizing: border-box;
+/* .footer {
     display: flex;
     flex-direction: column;
-    overflow: hidden;
-    padding: 2rem 2rem 64.8rem 2rem;
-    position: relative;
+    align-items: center;
+    justify-content: center;
     width: 100%;
+    height: 100vh;
+    background-color: #049904;
+}
 
-    .property-1wireframe-2bd {
-        flex-shrink: 0;
-        height: 56.4rem;
-        margin-bottom: 6.4rem;
-        object-fit: contain;
-        vertical-align: top;
-        width: 151.2rem;
-    }
-    .property-1layout-footer-Wmh {
-        border-top: solid 0.2rem #000000;
-        box-sizing: border-box;
-        flex-shrink: 0;
-        height: 56.4rem;
-        position: relative;
-        width: 100%;
+.footer .mark-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 821px;
+    height: 65px;
+}
 
-        .footer-FUP {
-            align-items: center;
-            background-color: #049904;
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-            height: 56.4rem;
-            left: 0;
-            overflow: hidden;
-            padding: 13.2rem 7rem 3rem 7rem;
-            position: absolute;
-            top: 0;
-            width: 151.2rem;
+.footer .mark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 323px;
+    height: 24px;
+}
 
-            .pemisah-jeT {
-                background-color: #000000;
-                flex-shrink: 0;
-                height: 0.1rem;
-                margin-bottom: 1.6rem;
-                width: 100%;
-            }
-            .isi-footer-3f9 {
-                align-items: center;
-                display: flex;
-                flex-shrink: 0;
-                height: 26.2rem;
-                margin: 0rem 15.3rem 2.4rem 2.8rem;
-                width: calc(100% - 18.1rem);
+.footer .text-wrapper {
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: -0.13px;
+    line-height: 24px;
+    white-space: nowrap;
+}
 
-                .quotes-kZZ {
-                    display: flex;
-                    flex-direction: column;
-                    flex-shrink: 0;
-                    height: 100%;
+.footer .div-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 823px;
+    height: 24px;
+}
 
-                    .auto-group-kvgf-6tK {
-                        flex-shrink: 0;
-                        height: 2.4rem;
-                        margin-bottom: 0.6rem;
-                        position: relative;
-                        width: 6.9001rem;
+.footer .pemisah {
+    width: 100%;
+    height: 1px;
+    object-fit: cover;
+}
 
-                        .tagline-2GB {
-                            align-items: baseline;
-                            color: #ffffff;
-                            display: flex;
-                            font-family: Arial, "Source Sans Pro";
-                            font-size: 1.6rem;
-                            font-weight: 700;
-                            height: 2.4rem;
-                            justify-content: center;
-                            left: 0.3rem;
-                            letter-spacing: -0.016rem;
-                            line-height: 1.5;
-                            position: absolute;
-                            top: 0;
-                            white-space: nowrap;
-                            width: 6.4rem;
+.footer .isi-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
 
-                            .tagline-2GB-sub-0 {
-                                color: #ffffff;
-                                font-family: Poppins, "Source Sans Pro";
-                                font-size: 1.6rem;
-                                font-weight: 700;
-                                letter-spacing: -0.016rem;
-                                line-height: 1.5;
-                            }
-                            .tagline-2GB-sub-1 {
-                                color: #ffff00;
-                                font-family: Poppins, "Source Sans Pro";
-                                font-size: 1.6rem;
-                                font-weight: 700;
-                                letter-spacing: -0.016rem;
-                                line-height: 1.5;
-                            }
-                        }
-                        .line-23-r2F {
-                            height: 0;
-                            left: 0;
-                            object-fit: contain;
-                            position: absolute;
-                            top: 2.225rem;
-                            vertical-align: top;
-                            width: 6.9001rem;
-                        }
-                    }
-                    .tujuan-kami-bukan-menciptakan-bisnis-yang-besar-tetapi-membangun-sesuatu-yang-membuat-perubahan-besar-y6s {
-                        color: #ffffff;
-                        flex-shrink: 0;
-                        font-family: Poppins, "Source Sans Pro";
-                        font-size: 1.3rem;
-                        font-style: italic;
-                        font-weight: 400;
-                        letter-spacing: -0.013rem;
-                        line-height: 1.8461538462;
-                        margin-bottom: 0.8rem;
-                        max-width: 25.9rem;
-                    }
-                    .semua-impian-kita-menjadi-kanyataan-jika-kita-mempunyai-keberanian-unutk-mengerjakannya-walt-disney-p7V {
-                        color: #ffffff;
-                        flex-shrink: 0;
-                        font-family: Poppins, "Source Sans Pro";
-                        font-size: 1.3rem;
-                        font-style: italic;
-                        font-weight: 400;
-                        letter-spacing: -0.013rem;
-                        line-height: 1.8461538462;
-                        margin: 0rem 0rem 0.8rem 5.3rem;
-                        max-width: 25.7rem;
-                    }
-                    .wirausahawan-sejadi-meciptakan-peluang-bisnis-sedangkan-wirausahawan-bisa-fokus-mengejar-uang-Tw9 {
-                        color: #ffffff;
-                        flex-shrink: 0;
-                        font-family: Poppins, "Source Sans Pro";
-                        font-size: 1.3rem;
-                        font-style: italic;
-                        font-weight: 400;
-                        letter-spacing: -0.013rem;
-                        line-height: 1.8461538462;
-                        margin-left: 13.5rem;
-                        max-width: 28.1rem;
-                    }
-                }
-                .auto-group-xxrf-j7y {
-                    align-items: flex-start;
-                    box-sizing: border-box;
-                    display: flex;
-                    flex-shrink: 0;
-                    height: 100%;
-                    padding-left: 7.4rem;
+.footer .comunity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 99px;
+    height: 70px;
+}
 
-                    .about-us-TZm {
-                        display: flex;
-                        flex-direction: column;
-                        flex-shrink: 0;
-                        margin-right: 12.8rem;
-                        row-gap: 0.6rem;
-                        width: 25.5rem;
+.footer .div {
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    line-height: 24px;
+    white-space: nowrap;
+}
 
-                        .auto-group-i7sy-a8b {
-                            flex-shrink: 0;
-                            height: 2.4rem;
-                            position: relative;
-                            width: 7.4rem;
+.footer .span {
+    color: #ffffff;
+}
 
-                            .line-24-VFZ {
-                                height: 0;
-                                left: 0;
-                                object-fit: contain;
-                                position: absolute;
-                                top: 2.2123rem;
-                                vertical-align: top;
-                                width: 7.4rem;
-                            }
-                            .aboutus-zi7 {
-                                align-items: baseline;
-                                color: #ffffff;
-                                display: flex;
-                                font-family: Arial, "Source Sans Pro";
-                                font-size: 1.6rem;
-                                font-weight: 700;
-                                height: 2.4rem;
-                                justify-content: center;
-                                left: 0.2rem;
-                                letter-spacing: -0.016rem;
-                                line-height: 1.5;
-                                position: absolute;
-                                top: 0;
-                                white-space: nowrap;
-                                width: 7rem;
+.footer .text-wrapper-2 {
+    color: #ffff00;
+}
 
-                                .aboutus-zi7-sub-0 {
-                                    color: #ffffff;
-                                    font-family: Poppins, "Source Sans Pro";
-                                    font-size: 1.6rem;
-                                    font-weight: 700;
-                                    letter-spacing: -0.016rem;
-                                    line-height: 1.5;
-                                }
-                                .aboutus-zi7-sub-1 {
-                                    color: #ffff00;
-                                    font-family: Poppins, "Source Sans Pro";
-                                    font-size: 1.6rem;
-                                    font-weight: 700;
-                                    letter-spacing: -0.016rem;
-                                    line-height: 1.5;
-                                }
-                            }
-                        }
-                        .group-263-tKd {
-                            align-items: flex-start;
-                            box-sizing: border-box;
-                            display: flex;
-                            flex-shrink: 0;
-                            margin-left: 0.1rem;
-                            padding-left: 0.3125rem;
-                            width: calc(100% - 0.1rem);
+.footer .line {
+    width: 97px;
+    height: 1px;
+    object-fit: cover;
+}
 
-                            .location-bUw {
-                                flex-shrink: 0;
-                                height: 1.3029rem;
-                                margin: 0.725rem 0.513rem 0rem 0rem;
-                                object-fit: contain;
-                                vertical-align: top;
-                                width: 0.875rem;
-                            }
-                            .jl-dharmawangsa-no138-d-airlangga-kec-gubeng-surabaya-jawa-timur-60282-v1R {
-                                color: #ffffff;
-                                flex-shrink: 0;
-                                font-family: Poppins, "Source Sans Pro";
-                                font-size: 1.4rem;
-                                font-weight: 400;
-                                letter-spacing: -0.014rem;
-                                line-height: 1.7142857143;
-                                max-width: 23.7rem;
-                            }
-                        }
-                        .group-264-btF {
-                            align-items: center;
-                            display: flex;
-                            flex-shrink: 0;
-                            margin: 0rem 3.6rem 0rem 0rem;
-                            width: calc(100% - 3.6rem);
+.footer .group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 67px;
+    height: 30px;
+}
 
-                            .icon-envelope-closed-vfd {
-                                flex-shrink: 0;
-                                height: 1.2rem;
-                                margin: 0.2rem 0.5rem 0rem 0rem;
-                                object-fit: contain;
-                                vertical-align: top;
-                                width: 1.6rem;
-                            }
-                            .foodysbussinesgmailcom-dpw {
-                                color: #ffffff;
-                                display: flex;
-                                flex-shrink: 0;
-                                font-family: Poppins, "Source Sans Pro";
-                                font-size: 1.4rem;
-                                font-weight: 400;
-                                letter-spacing: -0.014rem;
-                                line-height: 1.7142857143;
-                                white-space: nowrap;
-                            }
-                        }
-                        .group-265-9YP {
-                            align-items: center;
-                            box-sizing: border-box;
-                            display: flex;
-                            flex-shrink: 0;
-                            margin: 0rem 13.5rem 0rem 0rem;
-                            padding-left: 0.1333rem;
-                            width: calc(100% - 13.5rem);
+.footer .overlap {
+    width: 30px;
+    height: 30px;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+}
 
-                            .calling-rSo {
-                                flex-shrink: 0;
-                                height: 1.25rem;
-                                margin: 0rem 0.633rem 0.1rem 0rem;
-                                object-fit: contain;
-                                vertical-align: top;
-                                width: 1.3333rem;
-                            }
-                            .item-0274-2885822-NAF {
-                                color: #ffffff;
-                                flex-shrink: 0;
-                                font-family: Poppins, "Source Sans Pro";
-                                font-size: 1.4rem;
-                                font-style: italic;
-                                font-weight: 400;
-                                letter-spacing: -0.014rem;
-                                line-height: 1.7142857143;
-                                white-space: nowrap;
-                            }
-                        }
-                    }
-                    .comunity-sco {
-                        flex-shrink: 0;
-                        margin-right: 7.9954rem;
-                        width: 9.7046rem;
+.footer .frame {
+    width: 25px;
+    height: 25px;
+}
 
-                        .comunity-pH9 {
-                            align-items: baseline;
-                            color: #ffffff;
-                            display: flex;
-                            font-family: Arial, "Source Sans Pro";
-                            font-size: 1.6rem;
-                            font-weight: 700;
-                            letter-spacing: -0.016rem;
-                            line-height: 1.5;
-                            margin: 0rem 0rem 0.1rem 1.2rem;
-                            white-space: nowrap;
+.footer .overlap-group {
+    width: 30px;
+    height: 30px;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+}
 
-                            .comunity-pH9-sub-0 {
-                                color: #ffffff;
-                                font-family: Poppins, "Source Sans Pro";
-                                font-size: 1.6rem;
-                                font-weight: 700;
-                                letter-spacing: -0.016rem;
-                                line-height: 1.5;
-                            }
-                            .comunity-pH9-sub-1 {
-                                color: #ffff00;
-                                font-family: Poppins, "Source Sans Pro";
-                                font-size: 1.6rem;
-                                font-weight: 700;
-                                letter-spacing: -0.016rem;
-                                line-height: 1.5;
-                            }
-                        }
-                        .line-26-7vT {
-                            background-color: #000000;
-                            height: 0.1rem;
-                            margin-bottom: 1.4rem;
-                            width: 100%;
-                        }
-                        .group-266-TjR {
-                            height: 3rem;
-                            object-fit: contain;
-                            position: relative;
-                            vertical-align: top;
-                            width: 6.7rem;
-                        }
-                    }
-                    .sosmed-ooH {
-                        display: flex;
-                        flex-direction: column;
-                        flex-shrink: 0;
-                        margin-top: 0.1rem;
+.footer .sosmed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 143px;
+    height: 69px;
+}
 
-                        .social-media-xRH {
-                            align-items: baseline;
-                            color: #ffffff;
-                            display: flex;
-                            flex-shrink: 0;
-                            font-family: Arial, "Source Sans Pro";
-                            font-size: 1.6rem;
-                            font-weight: 700;
-                            letter-spacing: -0.016rem;
-                            line-height: 1.5;
-                            margin-left: 0.2rem;
-                            white-space: nowrap;
+.footer .overlap-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 105px;
+    height: 24px;
+}
 
-                            .social-media-xRH-sub-0 {
-                                color: #ffffff;
-                                font-family: Poppins, "Source Sans Pro";
-                                font-size: 1.6rem;
-                                font-weight: 700;
-                                letter-spacing: -0.016rem;
-                                line-height: 1.5;
-                            }
-                            .social-media-xRH-sub-1 {
-                                color: #ffff00;
-                                font-family: Poppins, "Source Sans Pro";
-                                font-size: 1.6rem;
-                                font-weight: 700;
-                                letter-spacing: -0.016rem;
-                                line-height: 1.5;
-                            }
-                        }
-                        .line-25-Unw {
-                            background-color: #000000;
-                            flex-shrink: 0;
-                            height: 0.1rem;
-                            margin-bottom: 1.4rem;
-                            width: 10.0045rem;
-                        }
-                        .list-sosmed-RTH {
-                            flex-shrink: 0;
-                            height: 3rem;
-                            object-fit: contain;
-                            position: relative;
-                            vertical-align: top;
-                            width: 14.1rem;
-                        }
-                    }
-                }
-            }
-            .pemisah-Mrj {
-                background-color: #000000;
-                flex-shrink: 0;
-                height: 0.1rem;
-                margin-bottom: 3.3rem;
-                width: 100%;
-            }
-            .mark-list-K2s {
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                flex-shrink: 0;
-                margin: 0rem 21.2rem 0rem 33.9rem;
-                width: calc(100% - 55.1rem);
+.footer .img {
+    width: 100px;
+    height: 1px;
+    object-fit: cover;
+}
 
-                .copyright-2023-by-foodys-all-rights-reserved-2T5 {
-                    color: #ffffff;
-                    flex-shrink: 0;
-                    font-family: Poppins, "Source Sans Pro";
-                    font-size: 1.3rem;
-                    font-weight: 700;
-                    letter-spacing: -0.013rem;
-                    line-height: 1.8461538462;
-                    margin: 0rem 9.6rem 1.7rem 0rem;
-                    white-space: nowrap;
-                }
-                .terima-kasih-telah-mengunjungi-foodys-jangan-ragu-untuk-menghubungi-kami-jika-anda-memiliki-pertanyaan-atau-saran-Hto {
-                    color: #ffffff;
-                    flex-shrink: 0;
-                    font-family: Poppins, "Source Sans Pro";
-                    font-size: 1.3rem;
-                    font-weight: 700;
-                    letter-spacing: -0.013rem;
-                    line-height: 1.8461538462;
-                    white-space: nowrap;
-                }
-            }
-        }
-        .foodies-1-NQT {
-            height: 27.7rem;
-            left: 7.2rem;
-            object-fit: cover;
-            position: absolute;
-            top: -6.2rem;
-            vertical-align: top;
-            width: 30.1rem;
-        }
-    }
+.footer .social-media {
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.footer .list-sosmed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 141px;
+    height: 30px;
+}
+
+.footer .frame-wrapper {
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.footer .frame-2 {
+    width: 25px;
+    height: 25px;
+}
+
+.footer .img-wrapper {
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.footer .overlap-3 {
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.footer .overlap-4 {
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.footer .about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 278px;
+    height: 162px;
+}
+
+.footer .group-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 122px;
+    height: 24px;
+}
+
+.footer .text-wrapper-3 {
+    font-family: "Poppins-Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: -0.14px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.footer .calling {
+    width: 16px;
+    height: 15px;
+}
+
+.footer .group-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 221px;
+    height: 24px;
+}
+
+.footer .icon-envelope-closed {
+    width: 16px;
+    height: 12px;
+}
+
+.footer .text-wrapper-4 {
+    height: 24px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: -0.14px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.footer .group-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 277px;
+    height: 72px;
+}
+
+.footer .p {
+    width: 258px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: -0.14px;
+    line-height: 24px;
+}
+
+.footer .location {
+    width: 15px;
+    height: 15px;
+}
+
+.footer .overlap-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 74px;
+    height: 24px;
+}
+
+.footer .line-2 {
+    width: 74px;
+    height: 1px;
+    object-fit: cover;
+}
+
+.footer .about-us-2 {
+    height: 24px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: -0.16px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.footer .quotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 423px;
+    height: 262px;
+}
+
+.footer .overlap-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 69px;
+    height: 24px;
+}
+
+.footer .tag-line {
+    height: 24px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: -0.16px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.footer .line-3 {
+    width: 69px;
+    height: 1px;
+    object-fit: cover;
+}
+
+.footer .text-wrapper-5 {
+    width: 273px;
+    font-family: "Poppins-Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: -0.13px;
+    line-height: 24px;
+}
+
+.footer .text-wrapper-6 {
+    width: 265px;
+    font-family: "Poppins-Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: -0.13px;
+    line-height: 24px;
+}
+
+.footer .text-wrapper-7 {
+    width: 280px;
+    font-family: "Poppins-Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: -0.13px;
+    line-height: 24px;
+}
+
+.footer .pemisah-2 {
+    width: 100%;
+    height: 1px;
+    object-fit: cover;
+}
+
+.footer .about-us,
+.footer .comunity,
+.footer .sosmed {
+    text-align: left;
+}
+
+.footer .about-us .group-2,
+.footer .about-us .group-3,
+.footer .about-us .group-4,
+.footer .comunity .group,
+.footer .sosmed .list-sosmed {
+    justify-content: flex-start;
+}
+
+:root {
+    --primary-colorhijau-muda: rgba(4, 153, 4, 1);
+    --primary-colorhijau-pudar-1: rgba(62, 188, 62, 1);
+    --primary-colorhijau-pudar-2: rgba(206, 255, 157, 1);
+    --aksesn-colororange: rgba(255, 176, 0, 1);
+    --aksesn-colororange-kuning: rgba(253, 202, 14, 1);
+    --aksesn-colorkuning: rgba(255, 255, 0, 1);
+    --aksesn-colorputih: rgba(255, 255, 255, 1);
+    --aksesn-colorabu-abu: rgba(249, 245, 245, 1);
+    --aksesn-colorhitam: rgba(0, 0, 0, 1);
+    --h1-reguler-font-family: "Poppins-Regular", Helvetica;
+    --h1-reguler-font-weight: 400;
+    --h1-reguler-font-size: 50px;
+    --h1-reguler-letter-spacing: 0px;
+    --h1-reguler-line-height: normal;
+    --h1-reguler-font-style: normal;
+    --h1-medium-font-family: "Poppins-Medium", Helvetica;
+    --h1-medium-font-weight: 500;
+    --h1-medium-font-size: 50px;
+    --h1-medium-letter-spacing: 0px;
+    --h1-medium-line-height: normal;
+    --h1-medium-font-style: normal;
+    --h1-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --h1-semibold-font-weight: 600;
+    --h1-semibold-font-size: 50px;
+    --h1-semibold-letter-spacing: 0px;
+    --h1-semibold-line-height: normal;
+    --h1-semibold-font-style: normal;
+    --h1-bold-font-family: "Poppins-Bold", Helvetica;
+    --h1-bold-font-weight: 700;
+    --h1-bold-font-size: 50px;
+    --h1-bold-letter-spacing: 0px;
+    --h1-bold-line-height: normal;
+    --h1-bold-font-style: normal;
+    --h2-reguler-font-family: "Poppins-Regular", Helvetica;
+    --h2-reguler-font-weight: 400;
+    --h2-reguler-font-size: 45px;
+    --h2-reguler-letter-spacing: 0px;
+    --h2-reguler-line-height: normal;
+    --h2-reguler-font-style: normal;
+    --h2-medium-font-family: "Poppins-Medium", Helvetica;
+    --h2-medium-font-weight: 500;
+    --h2-medium-font-size: 45px;
+    --h2-medium-letter-spacing: 0px;
+    --h2-medium-line-height: normal;
+    --h2-medium-font-style: normal;
+    --h2-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --h2-semibold-font-weight: 600;
+    --h2-semibold-font-size: 45px;
+    --h2-semibold-letter-spacing: 0px;
+    --h2-semibold-line-height: normal;
+    --h2-semibold-font-style: normal;
+    --h2-bold-font-family: "Poppins-Bold", Helvetica;
+    --h2-bold-font-weight: 700;
+    --h2-bold-font-size: 45px;
+    --h2-bold-letter-spacing: 0px;
+    --h2-bold-line-height: normal;
+    --h2-bold-font-style: normal;
+    --h3-reguler-font-family: "Poppins-Regular", Helvetica;
+    --h3-reguler-font-weight: 400;
+    --h3-reguler-font-size: 35px;
+    --h3-reguler-letter-spacing: 0px;
+    --h3-reguler-line-height: normal;
+    --h3-reguler-font-style: normal;
+    --h3-medium-font-family: "Poppins-Medium", Helvetica;
+    --h3-medium-font-weight: 500;
+    --h3-medium-font-size: 35px;
+    --h3-medium-letter-spacing: 0px;
+    --h3-medium-line-height: normal;
+    --h3-medium-font-style: normal;
+    --h3-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --h3-semibold-font-weight: 600;
+    --h3-semibold-font-size: 35px;
+    --h3-semibold-letter-spacing: 0px;
+    --h3-semibold-line-height: normal;
+    --h3-semibold-font-style: normal;
+    --h3-bold-font-family: "Poppins-Regular", Helvetica;
+    --h3-bold-font-weight: 400;
+    --h3-bold-font-size: 35px;
+    --h3-bold-letter-spacing: 0px;
+    --h3-bold-line-height: normal;
+    --h3-bold-font-style: normal;
+    --h4-reguler-font-family: "Poppins-Regular", Helvetica;
+    --h4-reguler-font-weight: 400;
+    --h4-reguler-font-size: 30px;
+    --h4-reguler-letter-spacing: 0px;
+    --h4-reguler-line-height: normal;
+    --h4-reguler-font-style: normal;
+    --h4-medium-font-family: "Poppins-Medium", Helvetica;
+    --h4-medium-font-weight: 500;
+    --h4-medium-font-size: 30px;
+    --h4-medium-letter-spacing: 0px;
+    --h4-medium-line-height: normal;
+    --h4-medium-font-style: normal;
+    --h4-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --h4-semibold-font-weight: 600;
+    --h4-semibold-font-size: 30px;
+    --h4-semibold-letter-spacing: 0px;
+    --h4-semibold-line-height: normal;
+    --h4-semibold-font-style: normal;
+    --h4-bold-font-family: "Poppins-Bold", Helvetica;
+    --h4-bold-font-weight: 700;
+    --h4-bold-font-size: 30px;
+    --h4-bold-letter-spacing: 0px;
+    --h4-bold-line-height: normal;
+    --h4-bold-font-style: normal;
+    --judul-reguler-font-family: "Poppins-Regular", Helvetica;
+    --judul-reguler-font-weight: 400;
+    --judul-reguler-font-size: 25px;
+    --judul-reguler-letter-spacing: 0px;
+    --judul-reguler-line-height: normal;
+    --judul-reguler-font-style: normal;
+    --judul-medium-font-family: "Poppins-Medium", Helvetica;
+    --judul-medium-font-weight: 500;
+    --judul-medium-font-size: 25px;
+    --judul-medium-letter-spacing: 0px;
+    --judul-medium-line-height: normal;
+    --judul-medium-font-style: normal;
+    --judul-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --judul-semibold-font-weight: 600;
+    --judul-semibold-font-size: 25px;
+    --judul-semibold-letter-spacing: 0px;
+    --judul-semibold-line-height: normal;
+    --judul-semibold-font-style: normal;
+    --judul-bold-font-family: "Poppins-Bold", Helvetica;
+    --judul-bold-font-weight: 700;
+    --judul-bold-font-size: 25px;
+    --judul-bold-letter-spacing: 0px;
+    --judul-bold-line-height: normal;
+    --judul-bold-font-style: normal;
+    --micro-judul-reguler-font-family: "Poppins-Regular", Helvetica;
+    --micro-judul-reguler-font-weight: 400;
+    --micro-judul-reguler-font-size: 10px;
+    --micro-judul-reguler-letter-spacing: 0px;
+    --micro-judul-reguler-line-height: normal;
+    --micro-judul-reguler-font-style: normal;
+    --micro-judul-medium-font-family: "Poppins-Medium", Helvetica;
+    --micro-judul-medium-font-weight: 500;
+    --micro-judul-medium-font-size: 10px;
+    --micro-judul-medium-letter-spacing: 0px;
+    --micro-judul-medium-line-height: normal;
+    --micro-judul-medium-font-style: normal;
+    --micro-judul-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --micro-judul-semibold-font-weight: 600;
+    --micro-judul-semibold-font-size: 10px;
+    --micro-judul-semibold-letter-spacing: 0px;
+    --micro-judul-semibold-line-height: normal;
+    --micro-judul-semibold-font-style: normal;
+    --micro-judul-bold-font-family: "Poppins-Bold", Helvetica;
+    --micro-judul-bold-font-weight: 700;
+    --micro-judul-bold-font-size: 10px;
+    --micro-judul-bold-letter-spacing: 0px;
+    --micro-judul-bold-line-height: normal;
+    --micro-judul-bold-font-style: normal;
+    --isi-reguler-font-family: "Poppins-Regular", Helvetica;
+    --isi-reguler-font-weight: 400;
+    --isi-reguler-font-size: 20px;
+    --isi-reguler-letter-spacing: 0px;
+    --isi-reguler-line-height: normal;
+    --isi-reguler-font-style: normal;
+    --isi-medium-font-family: "Poppins-Medium", Helvetica;
+    --isi-medium-font-weight: 500;
+    --isi-medium-font-size: 20px;
+    --isi-medium-letter-spacing: 0px;
+    --isi-medium-line-height: normal;
+    --isi-medium-font-style: normal;
+    --isi-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --isi-semibold-font-weight: 600;
+    --isi-semibold-font-size: 20px;
+    --isi-semibold-letter-spacing: 0px;
+    --isi-semibold-line-height: normal;
+    --isi-semibold-font-style: normal;
+    --isi-bold-font-family: "Poppins-Bold", Helvetica;
+    --isi-bold-font-weight: 700;
+    --isi-bold-font-size: 20px;
+    --isi-bold-letter-spacing: 0px;
+    --isi-bold-line-height: normal;
+    --isi-bold-font-style: normal;
+    --micro-isi-reguler-font-family: "Poppins-Regular", Helvetica;
+    --micro-isi-reguler-font-weight: 400;
+    --micro-isi-reguler-font-size: 5px;
+    --micro-isi-reguler-letter-spacing: 0px;
+    --micro-isi-reguler-line-height: normal;
+    --micro-isi-reguler-font-style: normal;
+    --micro-isi-medium-font-family: "Poppins-Medium", Helvetica;
+    --micro-isi-medium-font-weight: 500;
+    --micro-isi-medium-font-size: 5px;
+    --micro-isi-medium-letter-spacing: 0px;
+    --micro-isi-medium-line-height: normal;
+    --micro-isi-medium-font-style: normal;
+    --micro-isi-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --micro-isi-semibold-font-weight: 600;
+    --micro-isi-semibold-font-size: 5px;
+    --micro-isi-semibold-letter-spacing: 0px;
+    --micro-isi-semibold-line-height: normal;
+    --micro-isi-semibold-font-style: normal;
+    --micro-isi-bold-font-family: "Poppins-Bold", Helvetica;
+    --micro-isi-bold-font-weight: 700;
+    --micro-isi-bold-font-size: 5px;
+    --micro-isi-bold-letter-spacing: 0px;
+    --micro-isi-bold-line-height: normal;
+    --micro-isi-bold-font-style: normal;
+    --artikel-reguler-font-family: "Inter-Regular", Helvetica;
+    --artikel-reguler-font-weight: 400;
+    --artikel-reguler-font-size: 15px;
+    --artikel-reguler-letter-spacing: 0px;
+    --artikel-reguler-line-height: normal;
+    --artikel-reguler-font-style: normal;
+    --artikel-medium-font-family: "Poppins-Medium", Helvetica;
+    --artikel-medium-font-weight: 500;
+    --artikel-medium-font-size: 15px;
+    --artikel-medium-letter-spacing: 0px;
+    --artikel-medium-line-height: normal;
+    --artikel-medium-font-style: normal;
+    --artikel-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --artikel-semibold-font-weight: 600;
+    --artikel-semibold-font-size: 15px;
+    --artikel-semibold-letter-spacing: 0px;
+    --artikel-semibold-line-height: normal;
+    --artikel-semibold-font-style: normal;
+    --artikel-bold-font-family: "Poppins-Bold", Helvetica;
+    --artikel-bold-font-weight: 700;
+    --artikel-bold-font-size: 15px;
+    --artikel-bold-letter-spacing: 0px;
+    --artikel-bold-line-height: normal;
+    --artikel-bold-font-style: normal;
+} */
+
+/* .footer {
+    position: relative;
+    width: 1512px;
+    height: 564px;
+    background-color: #049904;
+}
+
+.footer .mark-list {
+    position: absolute;
+    width: 821px;
+    height: 65px;
+    top: 469px;
+    left: 409px;
+}
+
+.footer .copyright {
+    position: absolute;
+    width: 323px;
+    height: 24px;
+    top: 0;
+    left: 202px;
+}
+
+.footer .text-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: -0.13px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.footer .div-wrapper {
+    position: absolute;
+    width: 823px;
+    height: 24px;
+    top: 41px;
+    left: 0;
+}
+
+.footer .pemisah {
+    top: 434px;
+    position: absolute;
+    width: 1372px;
+    height: 1px;
+    left: 70px;
+    object-fit: cover;
+}
+
+.footer .isi-footer {
+    position: absolute;
+    width: 1191px;
+    height: 262px;
+    top: 149px;
+    left: 98px;
+}
+
+.footer .comunity {
+    width: 99px;
+    height: 70px;
+    left: 873px;
+    position: absolute;
+    top: 0;
+}
+
+.footer .div {
+    left: 12px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    line-height: 24px;
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+}
+
+.footer .span {
+    color: #ffffff;
+}
+
+.footer .text-wrapper-2 {
+    color: #ffff00;
+}
+
+.footer .line {
+    width: 97px;
+    top: 24px;
+    position: absolute;
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+}
+
+.footer .group {
+    position: absolute;
+    width: 67px;
+    height: 30px;
+    top: 40px;
+    left: 0;
+}
+
+.footer .overlap {
+    width: 30px;
+    height: 30px;
+    left: 0;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+}
+
+.footer .frame {
+    top: 2px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 2px;
+}
+
+.footer .overlap-group {
+    width: 30px;
+    height: 30px;
+    left: 37px;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+}
+
+.footer .sosmed {
+    position: absolute;
+    width: 143px;
+    height: 69px;
+    top: 1px;
+    left: 1050px;
+}
+
+.footer .overlap-2 {
+    width: 105px;
+    height: 24px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.footer .img {
+    width: 100px;
+    top: 23px;
+    position: absolute;
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+}
+
+.footer .social-media {
+    position: absolute;
+    top: 0;
+    left: 2px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.footer .list-sosmed {
+    position: absolute;
+    width: 141px;
+    height: 30px;
+    top: 39px;
+    left: 0;
+}
+
+.footer .frame-wrapper {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.footer .frame-2 {
+    top: 3px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 2px;
+}
+
+.footer .img-wrapper {
+    width: 30px;
+    height: 30px;
+    left: 37px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+}
+
+.footer .overlap-3 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 74px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.footer .overlap-4 {
+    width: 30px;
+    height: 30px;
+    left: 111px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+}
+
+.footer .about-us {
+    position: absolute;
+    width: 278px;
+    height: 162px;
+    top: 0;
+    left: 490px;
+}
+
+.footer .group-2 {
+    position: absolute;
+    width: 122px;
+    height: 24px;
+    top: 138px;
+    left: 0;
+}
+
+.footer .text-wrapper-3 {
+    position: absolute;
+    top: 0;
+    left: 21px;
+    font-family: "Poppins-Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: -0.14px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.footer .calling {
+    position: absolute;
+    width: 16px;
+    height: 15px;
+    top: 4px;
+    left: 0;
+}
+
+.footer .group-3 {
+    position: absolute;
+    width: 221px;
+    height: 24px;
+    top: 108px;
+    left: 0;
+}
+
+.footer .icon-envelope-closed {
+    position: absolute;
+    width: 16px;
+    height: 12px;
+    top: 7px;
+    left: 0;
+}
+
+.footer .text-wrapper-4 {
+    position: absolute;
+    height: 24px;
+    top: 0;
+    left: 21px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: -0.14px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.footer .group-4 {
+    position: absolute;
+    width: 277px;
+    height: 72px;
+    top: 30px;
+    left: 1px;
+}
+
+.footer .p {
+    position: absolute;
+    width: 258px;
+    top: 0;
+    left: 17px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: -0.14px;
+    line-height: 24px;
+}
+
+.footer .location {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 6px;
+    left: 0;
+}
+
+.footer .overlap-5 {
+    width: 74px;
+    height: 24px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.footer .line-2 {
+    width: 74px;
+    top: 22px;
+    position: absolute;
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+}
+
+.footer .about-us-2 {
+    position: absolute;
+    height: 24px;
+    top: 0;
+    left: 2px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: -0.16px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.footer .quotes {
+    position: absolute;
+    width: 423px;
+    height: 262px;
+    top: 0;
+    left: 0;
+}
+
+.footer .overlap-6 {
+    width: 69px;
+    height: 24px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.footer .tag-line {
+    position: absolute;
+    height: 24px;
+    top: 0;
+    left: 3px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: -0.16px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.footer .line-3 {
+    width: 69px;
+    top: 22px;
+    position: absolute;
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+}
+
+.footer .text-wrapper-5 {
+    position: absolute;
+    width: 273px;
+    top: 30px;
+    left: 0;
+    font-family: "Poppins-Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: -0.13px;
+    line-height: 24px;
+}
+
+.footer .text-wrapper-6 {
+    position: absolute;
+    width: 265px;
+    top: 110px;
+    left: 53px;
+    font-family: "Poppins-Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: -0.13px;
+    line-height: 24px;
+}
+
+.footer .text-wrapper-7 {
+    position: absolute;
+    width: 280px;
+    top: 190px;
+    left: 135px;
+    font-family: "Poppins-Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: -0.13px;
+    line-height: 24px;
+}
+
+:root {
+    --primary-colorhijau-muda: rgba(4, 153, 4, 1);
+    --primary-colorhijau-pudar-1: rgba(62, 188, 62, 1);
+    --primary-colorhijau-pudar-2: rgba(206, 255, 157, 1);
+    --aksesn-colororange: rgba(255, 176, 0, 1);
+    --aksesn-colororange-kuning: rgba(253, 202, 14, 1);
+    --aksesn-colorkuning: rgba(255, 255, 0, 1);
+    --aksesn-colorputih: rgba(255, 255, 255, 1);
+    --aksesn-colorabu-abu: rgba(249, 245, 245, 1);
+    --aksesn-colorhitam: rgba(0, 0, 0, 1);
+    --h1-reguler-font-family: "Poppins-Regular", Helvetica;
+    --h1-reguler-font-weight: 400;
+    --h1-reguler-font-size: 50px;
+    --h1-reguler-letter-spacing: 0px;
+    --h1-reguler-line-height: normal;
+    --h1-reguler-font-style: normal;
+    --h1-medium-font-family: "Poppins-Medium", Helvetica;
+    --h1-medium-font-weight: 500;
+    --h1-medium-font-size: 50px;
+    --h1-medium-letter-spacing: 0px;
+    --h1-medium-line-height: normal;
+    --h1-medium-font-style: normal;
+    --h1-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --h1-semibold-font-weight: 600;
+    --h1-semibold-font-size: 50px;
+    --h1-semibold-letter-spacing: 0px;
+    --h1-semibold-line-height: normal;
+    --h1-semibold-font-style: normal;
+    --h1-bold-font-family: "Poppins-Bold", Helvetica;
+    --h1-bold-font-weight: 700;
+    --h1-bold-font-size: 50px;
+    --h1-bold-letter-spacing: 0px;
+    --h1-bold-line-height: normal;
+    --h1-bold-font-style: normal;
+    --h2-reguler-font-family: "Poppins-Regular", Helvetica;
+    --h2-reguler-font-weight: 400;
+    --h2-reguler-font-size: 45px;
+    --h2-reguler-letter-spacing: 0px;
+    --h2-reguler-line-height: normal;
+    --h2-reguler-font-style: normal;
+    --h2-medium-font-family: "Poppins-Medium", Helvetica;
+    --h2-medium-font-weight: 500;
+    --h2-medium-font-size: 45px;
+    --h2-medium-letter-spacing: 0px;
+    --h2-medium-line-height: normal;
+    --h2-medium-font-style: normal;
+    --h2-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --h2-semibold-font-weight: 600;
+    --h2-semibold-font-size: 45px;
+    --h2-semibold-letter-spacing: 0px;
+    --h2-semibold-line-height: normal;
+    --h2-semibold-font-style: normal;
+    --h2-bold-font-family: "Poppins-Bold", Helvetica;
+    --h2-bold-font-weight: 700;
+    --h2-bold-font-size: 45px;
+    --h2-bold-letter-spacing: 0px;
+    --h2-bold-line-height: normal;
+    --h2-bold-font-style: normal;
+    --h3-reguler-font-family: "Poppins-Regular", Helvetica;
+    --h3-reguler-font-weight: 400;
+    --h3-reguler-font-size: 35px;
+    --h3-reguler-letter-spacing: 0px;
+    --h3-reguler-line-height: normal;
+    --h3-reguler-font-style: normal;
+    --h3-medium-font-family: "Poppins-Medium", Helvetica;
+    --h3-medium-font-weight: 500;
+    --h3-medium-font-size: 35px;
+    --h3-medium-letter-spacing: 0px;
+    --h3-medium-line-height: normal;
+    --h3-medium-font-style: normal;
+    --h3-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --h3-semibold-font-weight: 600;
+    --h3-semibold-font-size: 35px;
+    --h3-semibold-letter-spacing: 0px;
+    --h3-semibold-line-height: normal;
+    --h3-semibold-font-style: normal;
+    --h3-bold-font-family: "Poppins-Regular", Helvetica;
+    --h3-bold-font-weight: 400;
+    --h3-bold-font-size: 35px;
+    --h3-bold-letter-spacing: 0px;
+    --h3-bold-line-height: normal;
+    --h3-bold-font-style: normal;
+    --h4-reguler-font-family: "Poppins-Regular", Helvetica;
+    --h4-reguler-font-weight: 400;
+    --h4-reguler-font-size: 30px;
+    --h4-reguler-letter-spacing: 0px;
+    --h4-reguler-line-height: normal;
+    --h4-reguler-font-style: normal;
+    --h4-medium-font-family: "Poppins-Medium", Helvetica;
+    --h4-medium-font-weight: 500;
+    --h4-medium-font-size: 30px;
+    --h4-medium-letter-spacing: 0px;
+    --h4-medium-line-height: normal;
+    --h4-medium-font-style: normal;
+    --h4-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --h4-semibold-font-weight: 600;
+    --h4-semibold-font-size: 30px;
+    --h4-semibold-letter-spacing: 0px;
+    --h4-semibold-line-height: normal;
+    --h4-semibold-font-style: normal;
+    --h4-bold-font-family: "Poppins-Bold", Helvetica;
+    --h4-bold-font-weight: 700;
+    --h4-bold-font-size: 30px;
+    --h4-bold-letter-spacing: 0px;
+    --h4-bold-line-height: normal;
+    --h4-bold-font-style: normal;
+    --judul-reguler-font-family: "Poppins-Regular", Helvetica;
+    --judul-reguler-font-weight: 400;
+    --judul-reguler-font-size: 25px;
+    --judul-reguler-letter-spacing: 0px;
+    --judul-reguler-line-height: normal;
+    --judul-reguler-font-style: normal;
+    --judul-medium-font-family: "Poppins-Medium", Helvetica;
+    --judul-medium-font-weight: 500;
+    --judul-medium-font-size: 25px;
+    --judul-medium-letter-spacing: 0px;
+    --judul-medium-line-height: normal;
+    --judul-medium-font-style: normal;
+    --judul-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --judul-semibold-font-weight: 600;
+    --judul-semibold-font-size: 25px;
+    --judul-semibold-letter-spacing: 0px;
+    --judul-semibold-line-height: normal;
+    --judul-semibold-font-style: normal;
+    --judul-bold-font-family: "Poppins-Bold", Helvetica;
+    --judul-bold-font-weight: 700;
+    --judul-bold-font-size: 25px;
+    --judul-bold-letter-spacing: 0px;
+    --judul-bold-line-height: normal;
+    --judul-bold-font-style: normal;
+    --micro-judul-reguler-font-family: "Poppins-Regular", Helvetica;
+    --micro-judul-reguler-font-weight: 400;
+    --micro-judul-reguler-font-size: 10px;
+    --micro-judul-reguler-letter-spacing: 0px;
+    --micro-judul-reguler-line-height: normal;
+    --micro-judul-reguler-font-style: normal;
+    --micro-judul-medium-font-family: "Poppins-Medium", Helvetica;
+    --micro-judul-medium-font-weight: 500;
+    --micro-judul-medium-font-size: 10px;
+    --micro-judul-medium-letter-spacing: 0px;
+    --micro-judul-medium-line-height: normal;
+    --micro-judul-medium-font-style: normal;
+    --micro-judul-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --micro-judul-semibold-font-weight: 600;
+    --micro-judul-semibold-font-size: 10px;
+    --micro-judul-semibold-letter-spacing: 0px;
+    --micro-judul-semibold-line-height: normal;
+    --micro-judul-semibold-font-style: normal;
+    --micro-judul-bold-font-family: "Poppins-Bold", Helvetica;
+    --micro-judul-bold-font-weight: 700;
+    --micro-judul-bold-font-size: 10px;
+    --micro-judul-bold-letter-spacing: 0px;
+    --micro-judul-bold-line-height: normal;
+    --micro-judul-bold-font-style: normal;
+    --isi-reguler-font-family: "Poppins-Regular", Helvetica;
+    --isi-reguler-font-weight: 400;
+    --isi-reguler-font-size: 20px;
+    --isi-reguler-letter-spacing: 0px;
+    --isi-reguler-line-height: normal;
+    --isi-reguler-font-style: normal;
+    --isi-medium-font-family: "Poppins-Medium", Helvetica;
+    --isi-medium-font-weight: 500;
+    --isi-medium-font-size: 20px;
+    --isi-medium-letter-spacing: 0px;
+    --isi-medium-line-height: normal;
+    --isi-medium-font-style: normal;
+    --isi-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --isi-semibold-font-weight: 600;
+    --isi-semibold-font-size: 20px;
+    --isi-semibold-letter-spacing: 0px;
+    --isi-semibold-line-height: normal;
+    --isi-semibold-font-style: normal;
+    --isi-bold-font-family: "Poppins-Bold", Helvetica;
+    --isi-bold-font-weight: 700;
+    --isi-bold-font-size: 20px;
+    --isi-bold-letter-spacing: 0px;
+    --isi-bold-line-height: normal;
+    --isi-bold-font-style: normal;
+    --micro-isi-reguler-font-family: "Poppins-Regular", Helvetica;
+    --micro-isi-reguler-font-weight: 400;
+    --micro-isi-reguler-font-size: 5px;
+    --micro-isi-reguler-letter-spacing: 0px;
+    --micro-isi-reguler-line-height: normal;
+    --micro-isi-reguler-font-style: normal;
+    --micro-isi-medium-font-family: "Poppins-Medium", Helvetica;
+    --micro-isi-medium-font-weight: 500;
+    --micro-isi-medium-font-size: 5px;
+    --micro-isi-medium-letter-spacing: 0px;
+    --micro-isi-medium-line-height: normal;
+    --micro-isi-medium-font-style: normal;
+    --micro-isi-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --micro-isi-semibold-font-weight: 600;
+    --micro-isi-semibold-font-size: 5px;
+    --micro-isi-semibold-letter-spacing: 0px;
+    --micro-isi-semibold-line-height: normal;
+    --micro-isi-semibold-font-style: normal;
+    --micro-isi-bold-font-family: "Poppins-Bold", Helvetica;
+    --micro-isi-bold-font-weight: 700;
+    --micro-isi-bold-font-size: 5px;
+    --micro-isi-bold-letter-spacing: 0px;
+    --micro-isi-bold-line-height: normal;
+    --micro-isi-bold-font-style: normal;
+    --artikel-reguler-font-family: "Inter-Regular", Helvetica;
+    --artikel-reguler-font-weight: 400;
+    --artikel-reguler-font-size: 15px;
+    --artikel-reguler-letter-spacing: 0px;
+    --artikel-reguler-line-height: normal;
+    --artikel-reguler-font-style: normal;
+    --artikel-medium-font-family: "Poppins-Medium", Helvetica;
+    --artikel-medium-font-weight: 500;
+    --artikel-medium-font-size: 15px;
+    --artikel-medium-letter-spacing: 0px;
+    --artikel-medium-line-height: normal;
+    --artikel-medium-font-style: normal;
+    --artikel-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --artikel-semibold-font-weight: 600;
+    --artikel-semibold-font-size: 15px;
+    --artikel-semibold-letter-spacing: 0px;
+    --artikel-semibold-line-height: normal;
+    --artikel-semibold-font-style: normal;
+    --artikel-bold-font-family: "Poppins-Bold", Helvetica;
+    --artikel-bold-font-weight: 700;
+    --artikel-bold-font-size: 15px;
+    --artikel-bold-letter-spacing: 0px;
+    --artikel-bold-line-height: normal;
+    --artikel-bold-font-style: normal;
+} */
+
+.footer {
+    position: relative;
+    width: 1512px;
+    height: 564px;
+    background-color: #049904;
+}
+
+.footer .mark-list {
+    position: absolute;
+    width: 821px;
+    height: 65px;
+    top: 469px;
+    left: 409px;
+}
+
+.footer .copyright {
+    position: absolute;
+    width: 323px;
+    height: 24px;
+    top: 0;
+    left: 202px;
+}
+
+.footer .text-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: -0.13px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.footer .div-wrapper {
+    position: absolute;
+    width: 823px;
+    height: 24px;
+    top: 41px;
+    left: 0;
+}
+
+.footer .pemisah {
+    top: 434px;
+    position: absolute;
+    width: 1372px;
+    height: 1px;
+    left: 70px;
+    object-fit: cover;
+}
+
+.footer .isi-footer {
+    position: absolute;
+    width: 1191px;
+    height: 262px;
+    top: 149px;
+    left: 98px;
+}
+
+.footer .comunity {
+    width: 99px;
+    height: 70px;
+    left: 873px;
+    position: absolute;
+    top: 0;
+}
+
+.footer .div {
+    left: 12px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    line-height: 24px;
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+}
+
+.footer .span {
+    color: #ffffff;
+}
+
+.footer .text-wrapper-2 {
+    color: #ffff00;
+}
+
+.footer .line {
+    width: 97px;
+    top: 24px;
+    position: absolute;
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+}
+
+.footer .group {
+    position: absolute;
+    width: 67px;
+    height: 30px;
+    top: 40px;
+    left: 0;
+}
+
+.footer .overlap {
+    width: 30px;
+    height: 30px;
+    left: 0;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+}
+
+.footer .frame {
+    top: 2px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 2px;
+}
+
+.footer .overlap-group {
+    width: 30px;
+    height: 30px;
+    left: 37px;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+}
+
+.footer .sosmed {
+    position: absolute;
+    width: 143px;
+    height: 69px;
+    top: 1px;
+    left: 1050px;
+}
+
+.footer .overlap-2 {
+    width: 105px;
+    height: 24px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.footer .img {
+    width: 100px;
+    top: 23px;
+    position: absolute;
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+}
+
+.footer .social-media {
+    position: absolute;
+    top: 0;
+    left: 2px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.footer .list-sosmed {
+    position: absolute;
+    width: 141px;
+    height: 30px;
+    top: 39px;
+    left: 0;
+}
+
+.footer .frame-wrapper {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.footer .frame-2 {
+    top: 3px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 2px;
+}
+
+.footer .img-wrapper {
+    width: 30px;
+    height: 30px;
+    left: 37px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+}
+
+.footer .overlap-3 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 74px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.footer .overlap-4 {
+    width: 30px;
+    height: 30px;
+    left: 111px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+}
+
+.footer .about-us {
+    position: absolute;
+    width: 278px;
+    height: 162px;
+    top: 0;
+    left: 490px;
+}
+
+.footer .group-2 {
+    position: absolute;
+    width: 122px;
+    height: 24px;
+    top: 138px;
+    left: 0;
+}
+
+.footer .text-wrapper-3 {
+    position: absolute;
+    top: 0;
+    left: 21px;
+    font-family: "Poppins-Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: -0.14px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.footer .calling {
+    position: absolute;
+    width: 16px;
+    height: 15px;
+    top: 4px;
+    left: 0;
+}
+
+.footer .group-3 {
+    position: absolute;
+    width: 221px;
+    height: 24px;
+    top: 108px;
+    left: 0;
+}
+
+.footer .icon-envelope-closed {
+    position: absolute;
+    width: 16px;
+    height: 12px;
+    top: 7px;
+    left: 0;
+}
+
+.footer .text-wrapper-4 {
+    position: absolute;
+    height: 24px;
+    top: 0;
+    left: 21px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: -0.14px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.footer .group-4 {
+    position: absolute;
+    width: 277px;
+    height: 72px;
+    top: 30px;
+    left: 1px;
+}
+
+.footer .p {
+    position: absolute;
+    width: 258px;
+    top: 0;
+    left: 17px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: -0.14px;
+    line-height: 24px;
+}
+
+.footer .location {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 6px;
+    left: 0;
+}
+
+.footer .overlap-5 {
+    width: 74px;
+    height: 24px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.footer .line-2 {
+    width: 74px;
+    top: 22px;
+    position: absolute;
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+}
+
+.footer .about-us-2 {
+    position: absolute;
+    height: 24px;
+    top: 0;
+    left: 2px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: -0.16px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.footer .quotes {
+    position: absolute;
+    width: 423px;
+    height: 262px;
+    top: 0;
+    left: 0;
+}
+
+.footer .overlap-6 {
+    width: 69px;
+    height: 24px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.footer .tag-line {
+    position: absolute;
+    height: 24px;
+    top: 0;
+    left: 3px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: -0.16px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.footer .line-3 {
+    width: 69px;
+    top: 22px;
+    position: absolute;
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+}
+
+.footer .text-wrapper-5 {
+    position: absolute;
+    width: 273px;
+    top: 30px;
+    left: 0;
+    font-family: "Poppins-Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: -0.13px;
+    line-height: 24px;
+}
+
+.footer .text-wrapper-6 {
+    position: absolute;
+    width: 265px;
+    top: 110px;
+    left: 53px;
+    font-family: "Poppins-Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: -0.13px;
+    line-height: 24px;
+}
+
+.footer .text-wrapper-7 {
+    position: absolute;
+    width: 280px;
+    top: 190px;
+    left: 135px;
+    font-family: "Poppins-Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: -0.13px;
+    line-height: 24px;
+}
+
+.footer .pemisah-2 {
+    top: 131px;
+    position: absolute;
+    width: 1372px;
+    height: 1px;
+    left: 70px;
+    object-fit: cover;
+}
+
+:root {
+    --primary-colorhijau-muda: rgba(4, 153, 4, 1);
+    --primary-colorhijau-pudar-1: rgba(62, 188, 62, 1);
+    --primary-colorhijau-pudar-2: rgba(206, 255, 157, 1);
+    --aksesn-colororange: rgba(255, 176, 0, 1);
+    --aksesn-colororange-kuning: rgba(253, 202, 14, 1);
+    --aksesn-colorkuning: rgba(255, 255, 0, 1);
+    --aksesn-colorputih: rgba(255, 255, 255, 1);
+    --aksesn-colorabu-abu: rgba(249, 245, 245, 1);
+    --aksesn-colorhitam: rgba(0, 0, 0, 1);
+    --h1-reguler-font-family: "Poppins-Regular", Helvetica;
+    --h1-reguler-font-weight: 400;
+    --h1-reguler-font-size: 50px;
+    --h1-reguler-letter-spacing: 0px;
+    --h1-reguler-line-height: normal;
+    --h1-reguler-font-style: normal;
+    --h1-medium-font-family: "Poppins-Medium", Helvetica;
+    --h1-medium-font-weight: 500;
+    --h1-medium-font-size: 50px;
+    --h1-medium-letter-spacing: 0px;
+    --h1-medium-line-height: normal;
+    --h1-medium-font-style: normal;
+    --h1-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --h1-semibold-font-weight: 600;
+    --h1-semibold-font-size: 50px;
+    --h1-semibold-letter-spacing: 0px;
+    --h1-semibold-line-height: normal;
+    --h1-semibold-font-style: normal;
+    --h1-bold-font-family: "Poppins-Bold", Helvetica;
+    --h1-bold-font-weight: 700;
+    --h1-bold-font-size: 50px;
+    --h1-bold-letter-spacing: 0px;
+    --h1-bold-line-height: normal;
+    --h1-bold-font-style: normal;
+    --h2-reguler-font-family: "Poppins-Regular", Helvetica;
+    --h2-reguler-font-weight: 400;
+    --h2-reguler-font-size: 45px;
+    --h2-reguler-letter-spacing: 0px;
+    --h2-reguler-line-height: normal;
+    --h2-reguler-font-style: normal;
+    --h2-medium-font-family: "Poppins-Medium", Helvetica;
+    --h2-medium-font-weight: 500;
+    --h2-medium-font-size: 45px;
+    --h2-medium-letter-spacing: 0px;
+    --h2-medium-line-height: normal;
+    --h2-medium-font-style: normal;
+    --h2-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --h2-semibold-font-weight: 600;
+    --h2-semibold-font-size: 45px;
+    --h2-semibold-letter-spacing: 0px;
+    --h2-semibold-line-height: normal;
+    --h2-semibold-font-style: normal;
+    --h2-bold-font-family: "Poppins-Bold", Helvetica;
+    --h2-bold-font-weight: 700;
+    --h2-bold-font-size: 45px;
+    --h2-bold-letter-spacing: 0px;
+    --h2-bold-line-height: normal;
+    --h2-bold-font-style: normal;
+    --h3-reguler-font-family: "Poppins-Regular", Helvetica;
+    --h3-reguler-font-weight: 400;
+    --h3-reguler-font-size: 35px;
+    --h3-reguler-letter-spacing: 0px;
+    --h3-reguler-line-height: normal;
+    --h3-reguler-font-style: normal;
+    --h3-medium-font-family: "Poppins-Medium", Helvetica;
+    --h3-medium-font-weight: 500;
+    --h3-medium-font-size: 35px;
+    --h3-medium-letter-spacing: 0px;
+    --h3-medium-line-height: normal;
+    --h3-medium-font-style: normal;
+    --h3-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --h3-semibold-font-weight: 600;
+    --h3-semibold-font-size: 35px;
+    --h3-semibold-letter-spacing: 0px;
+    --h3-semibold-line-height: normal;
+    --h3-semibold-font-style: normal;
+    --h3-bold-font-family: "Poppins-Regular", Helvetica;
+    --h3-bold-font-weight: 400;
+    --h3-bold-font-size: 35px;
+    --h3-bold-letter-spacing: 0px;
+    --h3-bold-line-height: normal;
+    --h3-bold-font-style: normal;
+    --h4-reguler-font-family: "Poppins-Regular", Helvetica;
+    --h4-reguler-font-weight: 400;
+    --h4-reguler-font-size: 30px;
+    --h4-reguler-letter-spacing: 0px;
+    --h4-reguler-line-height: normal;
+    --h4-reguler-font-style: normal;
+    --h4-medium-font-family: "Poppins-Medium", Helvetica;
+    --h4-medium-font-weight: 500;
+    --h4-medium-font-size: 30px;
+    --h4-medium-letter-spacing: 0px;
+    --h4-medium-line-height: normal;
+    --h4-medium-font-style: normal;
+    --h4-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --h4-semibold-font-weight: 600;
+    --h4-semibold-font-size: 30px;
+    --h4-semibold-letter-spacing: 0px;
+    --h4-semibold-line-height: normal;
+    --h4-semibold-font-style: normal;
+    --h4-bold-font-family: "Poppins-Bold", Helvetica;
+    --h4-bold-font-weight: 700;
+    --h4-bold-font-size: 30px;
+    --h4-bold-letter-spacing: 0px;
+    --h4-bold-line-height: normal;
+    --h4-bold-font-style: normal;
+    --judul-reguler-font-family: "Poppins-Regular", Helvetica;
+    --judul-reguler-font-weight: 400;
+    --judul-reguler-font-size: 25px;
+    --judul-reguler-letter-spacing: 0px;
+    --judul-reguler-line-height: normal;
+    --judul-reguler-font-style: normal;
+    --judul-medium-font-family: "Poppins-Medium", Helvetica;
+    --judul-medium-font-weight: 500;
+    --judul-medium-font-size: 25px;
+    --judul-medium-letter-spacing: 0px;
+    --judul-medium-line-height: normal;
+    --judul-medium-font-style: normal;
+    --judul-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --judul-semibold-font-weight: 600;
+    --judul-semibold-font-size: 25px;
+    --judul-semibold-letter-spacing: 0px;
+    --judul-semibold-line-height: normal;
+    --judul-semibold-font-style: normal;
+    --judul-bold-font-family: "Poppins-Bold", Helvetica;
+    --judul-bold-font-weight: 700;
+    --judul-bold-font-size: 25px;
+    --judul-bold-letter-spacing: 0px;
+    --judul-bold-line-height: normal;
+    --judul-bold-font-style: normal;
+    --micro-judul-reguler-font-family: "Poppins-Regular", Helvetica;
+    --micro-judul-reguler-font-weight: 400;
+    --micro-judul-reguler-font-size: 10px;
+    --micro-judul-reguler-letter-spacing: 0px;
+    --micro-judul-reguler-line-height: normal;
+    --micro-judul-reguler-font-style: normal;
+    --micro-judul-medium-font-family: "Poppins-Medium", Helvetica;
+    --micro-judul-medium-font-weight: 500;
+    --micro-judul-medium-font-size: 10px;
+    --micro-judul-medium-letter-spacing: 0px;
+    --micro-judul-medium-line-height: normal;
+    --micro-judul-medium-font-style: normal;
+    --micro-judul-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --micro-judul-semibold-font-weight: 600;
+    --micro-judul-semibold-font-size: 10px;
+    --micro-judul-semibold-letter-spacing: 0px;
+    --micro-judul-semibold-line-height: normal;
+    --micro-judul-semibold-font-style: normal;
+    --micro-judul-bold-font-family: "Poppins-Bold", Helvetica;
+    --micro-judul-bold-font-weight: 700;
+    --micro-judul-bold-font-size: 10px;
+    --micro-judul-bold-letter-spacing: 0px;
+    --micro-judul-bold-line-height: normal;
+    --micro-judul-bold-font-style: normal;
+    --isi-reguler-font-family: "Poppins-Regular", Helvetica;
+    --isi-reguler-font-weight: 400;
+    --isi-reguler-font-size: 20px;
+    --isi-reguler-letter-spacing: 0px;
+    --isi-reguler-line-height: normal;
+    --isi-reguler-font-style: normal;
+    --isi-medium-font-family: "Poppins-Medium", Helvetica;
+    --isi-medium-font-weight: 500;
+    --isi-medium-font-size: 20px;
+    --isi-medium-letter-spacing: 0px;
+    --isi-medium-line-height: normal;
+    --isi-medium-font-style: normal;
+    --isi-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --isi-semibold-font-weight: 600;
+    --isi-semibold-font-size: 20px;
+    --isi-semibold-letter-spacing: 0px;
+    --isi-semibold-line-height: normal;
+    --isi-semibold-font-style: normal;
+    --isi-bold-font-family: "Poppins-Bold", Helvetica;
+    --isi-bold-font-weight: 700;
+    --isi-bold-font-size: 20px;
+    --isi-bold-letter-spacing: 0px;
+    --isi-bold-line-height: normal;
+    --isi-bold-font-style: normal;
+    --micro-isi-reguler-font-family: "Poppins-Regular", Helvetica;
+    --micro-isi-reguler-font-weight: 400;
+    --micro-isi-reguler-font-size: 5px;
+    --micro-isi-reguler-letter-spacing: 0px;
+    --micro-isi-reguler-line-height: normal;
+    --micro-isi-reguler-font-style: normal;
+    --micro-isi-medium-font-family: "Poppins-Medium", Helvetica;
+    --micro-isi-medium-font-weight: 500;
+    --micro-isi-medium-font-size: 5px;
+    --micro-isi-medium-letter-spacing: 0px;
+    --micro-isi-medium-line-height: normal;
+    --micro-isi-medium-font-style: normal;
+    --micro-isi-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --micro-isi-semibold-font-weight: 600;
+    --micro-isi-semibold-font-size: 5px;
+    --micro-isi-semibold-letter-spacing: 0px;
+    --micro-isi-semibold-line-height: normal;
+    --micro-isi-semibold-font-style: normal;
+    --micro-isi-bold-font-family: "Poppins-Bold", Helvetica;
+    --micro-isi-bold-font-weight: 700;
+    --micro-isi-bold-font-size: 5px;
+    --micro-isi-bold-letter-spacing: 0px;
+    --micro-isi-bold-line-height: normal;
+    --micro-isi-bold-font-style: normal;
+    --artikel-reguler-font-family: "Inter-Regular", Helvetica;
+    --artikel-reguler-font-weight: 400;
+    --artikel-reguler-font-size: 15px;
+    --artikel-reguler-letter-spacing: 0px;
+    --artikel-reguler-line-height: normal;
+    --artikel-reguler-font-style: normal;
+    --artikel-medium-font-family: "Poppins-Medium", Helvetica;
+    --artikel-medium-font-weight: 500;
+    --artikel-medium-font-size: 15px;
+    --artikel-medium-letter-spacing: 0px;
+    --artikel-medium-line-height: normal;
+    --artikel-medium-font-style: normal;
+    --artikel-semibold-font-family: "Poppins-SemiBold", Helvetica;
+    --artikel-semibold-font-weight: 600;
+    --artikel-semibold-font-size: 15px;
+    --artikel-semibold-letter-spacing: 0px;
+    --artikel-semibold-line-height: normal;
+    --artikel-semibold-font-style: normal;
+    --artikel-bold-font-family: "Poppins-Bold", Helvetica;
+    --artikel-bold-font-weight: 700;
+    --artikel-bold-font-size: 15px;
+    --artikel-bold-letter-spacing: 0px;
+    --artikel-bold-line-height: normal;
+    --artikel-bold-font-style: normal;
 }
